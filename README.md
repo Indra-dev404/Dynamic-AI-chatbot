@@ -1,4 +1,4 @@
-# Task 1 – NLP & Intent Understanding
+# Project 3 – NLP & Intent Understanding
 
 This module is responsible for **understanding what the user means**.
 It does NOT generate replies. It only analyzes user input.
@@ -78,3 +78,4 @@ Input:
   "user_id": "string",
   "message": "string"
 }
+
