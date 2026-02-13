@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "Hi chatbot",
+        "Hello support",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+
+    {
+      "tag": "faq",
+      "patterns": [
+        "How do I reset my password?",
+        "What are your working hours?",
+        "How can I change my email address?",
+        "Is there a mobile app?",
+        "How do I contact support?",
+        "Where can I find help documentation?",
+        "What services do you provide?",
+        "How do I create an account?"
+      ],
+      "responses": [
+        "Here’s the information you’re looking for. Let me know if you need more details."
+      ]
+    },
+
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help with my account",
+        "Please help me with my order",
+        "I am facing an issue",
+        "My account is not working",
+        "I need technical support",
+        "Something is not working properly",
+        "Can you assist me?",
+        "I need help right now"
+      ],
+      "responses": [
+        "I’m here to help. Can you please describe the issue?"
+      ]
+    },
+
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I am very unhappy with this service",
+        "This is terrible support",
+        "I am extremely disappointed",
+        "Worst experience ever",
+        "Your service is very bad",
+        "I am angry about this issue",
+        "Nothing is working as promised",
+        "I want to raise a complaint"
+      ],
+      "responses": [
+        "I’m sorry for the inconvenience. Your complaint has been noted."
+      ]
+    },
+
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Thanks for the help",
+        "Great service!",
+        "I really appreciate your support",
+        "That was very helpful",
+        "Excellent experience",
+        "Good job team",
+        "Very satisfied with the service",
+        "Keep up the good work"
+      ],
+      "responses": [
+        "Thank you for your feedback! We really appreciate it."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Thanks, bye",
+        "I am done, goodbye",
+        "Have a nice day",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day 😊"
+      ]
+    },
+
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "What is the status of my order?",
+        "Has my order been shipped?",
+        "Order delivery status",
+        "When will my order arrive?",
+        "Check order progress",
+        "Tell me where my order is"
+      ],
+      "responses": [
+        "Please share your order ID so I can check the status."
+      ]
+    },
+
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "I want to cancel my order",
+        "Cancel my purchase",
+        "Please cancel my order",
+        "I no longer want this order",
+        "Stop my order",
+        "Cancel the product I ordered",
+        "I want to cancel before delivery",
+        "Cancel order immediately"
+      ],
+      "responses": [
+        "Your cancellation request has been initiated. Please share your order ID."
+      ]
+    },
+
+    {
+      "tag": "refund_request",
+      "patterns": [
+        "I want a refund",
+        "How do I get my money back?",
+        "Request a refund",
+        "Please refund my payment",
+        "I want my refund now",
+        "Money was deducted, refund it",
+        "Refund my order",
+        "Return and refund my product"
+      ],
+      "responses": [
+        "I can help with refunds. Please provide your order details."
+      ]
+    },
+
+    {
+      "tag": "human_handoff",
+      "patterns": [
+        "I want to talk to a human",
+        "Connect me to a support agent",
+        "I need a real person",
+        "Transfer me to customer care",
+        "Let me speak to an agent",
+        "Human support please",
+        "I want live support",
+        "This bot is not helping, connect me to a human"
+      ],
+      "responses": [
+        "Connecting you to a human support agent now."
+      ]
+    }
+  ]
+}
